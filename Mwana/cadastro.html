@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/form.css">
+   <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastrar-se</h1>
+      <form action="">
+   <fieldset>
+      <legend>Dados Pessoais </legend>
+      <div class="row">
+      <input id="prinome" type="text" name="prinome" placeholder="Digite o  seu nome" required >
+       </div>
+
+        <div class="row">
+            <input id="sobnome" type="text" name="sobnome" placeholder="Digite seu Sobrenome" required >
+         </div>
+        <div class="row">
+        
+         <input id="bi" type="text" name="bi" placeholder="Digite o seu número de Bi ou Passapote" required >
+     </div>
+
+     <div class="row">
+      <input id="morada" type="text" name="morada" placeholder="Digite a tua Morada" required >
+  </div>
+  <div class="row">
+   <input id="tele" type="text" name="tele" placeholder="Digite o seu terminal"  required >
+</div>
+
+<div class="row">
+   <input id="usar" type="email" name="usar" placeholder="Digite o seu e-mail" required >
+</div>
+
+<div class="row">
+   <input id="senha" type="password" name="senha" placeholder="Digite a sua senha" required >
+</div>
+
+<div class="row">
+   <input id="confsenha" type="password" name="confsenha" placeholder="Confirme a sua senha" required >
+</div>
+<div class="row">
+       <input id="idade" type="number" name="idade" placeholder="Digite a tua idade" required >
+   </div>
+<div class="row">
+   <label for="idade">Data de Nascimento</label>
+   <input id="datnas" type="date" name="datnas" required >
+</div>
+  <div class="row">
+   <label for="estado">Estado Civil</label>
+   <input type="radio" value="Casado"  id="casado" name="estado" required >
+   <label for="casado">Casado</label>
+   <input type="radio" value="Solteiro"  id="solteiro" name="estado" required >
+   <label for="solteiro">Solteiro</label>
+</div>
+
+  <div class="row"> 
+   <label for="sexo">Sexo</label>
+   <input type="radio" value="Masculino"  id="masculino" name="sexo" required >
+      <label for="mas">Masculino</label>
+      <input type="radio" value="Femenino"  id="femenino" name="sexo" required >
+      <label for="fem">Femenino</label>
+      <input type="radio" value="Binario"  id="binario" name="sexo" required >
+      <label for="bina">Binário</label>
+      <input type="radio" value="Outros"  id="outros" name="sexo" required >
+      <label for="out">Outros</label>
+   </div>
+<div class="row">
+   <label for="copiabi">Cópia de Bi</label>
+   <input id="copiabi"  type="file" required >
+</div>
+<div class="row">
+   <label for="foto">Foto</label>
+   <input id="foto"  type="file">
+</div>
+   </fieldset>
+   <fieldset>
+      <legend>Dados Profissional</legend>
+  <div class="row">
+ 
+   <input id="spa" type="text" name="spa" placeholder="Digite a sua situação profissional" required >
+</div> 
+<div class="row">
+   <label for="habilitações">Habilitações Literárias</label>
+   <select name="habilitações" >
+      <option value="EPma">Ensino Primário</option>
+      <option value="Pci"> Primário Cíclo</option>
+      <option value="EMe"> Ensino Médio</option>
+      <option value="sup">Ensino Superior</option>
+      </select>  
+</div>
+<div class="row">
+   <label for="lingua"> Línguas</label>
+   <select name="area">
+      <option value="EPma">Língua Portuguesa</option>
+      <option value="Pci"> Inglês</option>
+      <option value="EMe"> Frances</option>
+      <option value="sup">Cokwe</option>
+         </select>
+</div>
+<div class="row">
+   <label for="funcao">Função</label>
+            <select name="area">
+               <option value="DH">Direitos Humanos</option>
+               <option value="IC"> Investigação Ciêntífica</option>
+               <option value="sau"> Saúde</option>
+               <option value="Psi">Psicologia</option>
+               <option value="lid">Liderança</option>
+               <option value=" Mc">Moblilização Comunitária</option>
+                  </select>
+</div>
+ <div class="row ">
+    <label for="cultu"> Cultura</label>
+                  <select name="area">
+                     <option value="musi">Música</option>
+                     <option value="tea"> Teatro</option>
+                     <option value="po"> Poesia</option>
+                     <option value="danc">Dança</option>
+                     
+ </select> 
+ </div>
+<div class="radio">
+   <label for="observacoes">Observação</label>
+</div>
+<div class="row">
+   <textarea name="observacoes" id="observacoes" placeholder="Digite alguma Observação aqui" cols="30" rows="10"></textarea>
+</div>
+  
+</fieldset>
+ <div class="buttons">
+   <input type="submit">
+   <input type="reset"  value="Cancelar">
+ </div>
+</form>
+</div>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

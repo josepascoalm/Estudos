@@ -1,0 +1,190 @@
+@import url('https//:fonts.googleapis.com/css2?family=Inter:wigh@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.0;
+   
+}
+body{
+   
+    background: url(img/mwana2.jpg) linear-gradient( rgb(119, 15, 135)10%, rgb(70, 73, 73)50%);
+}
+.container{
+    
+    background:transparent;
+    width: 720px;
+    padding: 70px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0px 6px 10px;
+    border-radius: 10px;
+    
+}
+.row{
+    padding: 5px;
+}
+.buttons{
+    text-align: center;
+}
+fieldset{
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color:#d408fd;
+    box-shadow: 4px 4px 4px 4px#d408fd;
+
+}
+legend{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family:'Inter', sans-serif;
+    color: #d408fd;
+
+}
+h1{
+    color:#d408fd;
+    text-align: center;
+    border-radius: 5px;
+}
+ label:not([for="casado"],[for="solteiro"],[for="mas"],[for="fem"],[for="bina"],[for="out"]) {
+    display: inline-block;
+    width: 120px;
+ }
+ input{
+    padding: 2px;
+    outline: none;
+ }
+ input[id="prinome"],
+ input[id="sobnome"], 
+ input[id="bi"],
+ input[id="morada"],
+ input[id="tele"],
+ input[id="usar"],
+ input[id="senha"], 
+ input[id="confsenha"],
+ input[id="spa"]{
+    width: 480px;
+ }
+ input[id="idade"],
+ input[id="datnas"]{
+    width: 180px;
+ }
+ input[type="text"],
+ input[type="date"], 
+ input[type="number"],
+ input[type="password"],
+ input[type="email"]{
+    border: none;
+    border-bottom: 2px solid  #989090; 
+    transition: 0.3s all ease-in-out ;
+
+ }
+ input[type="text"]:focus,
+ input[type="date"]:focus, 
+ input[type="number"]:focus,
+ input[type="password"]:focus,
+ input[type="email"]:focus{
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color:#d408fd;
+
+ }
+ textarea{
+    padding: 10px; 
+    size: none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out ;
+
+ }
+ textarea:focus{
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color:#d408fd;
+ }
+ input [type="radio"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ select{
+    width: 22%;
+    height: 35%;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out ;
+
+ }
+ select:focus{
+    
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color:#d408fd;
+ }
+
+ 
+ input[type="submit"]{
+     padding: 20px 20px;
+     float: left;
+     background-color: #d408fd;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     transition: 0.3s all ease-in-out;
+ }
+ input[type="reset"]{
+    padding: 20px 20px;
+    float: right;
+    background-color: #d408fd;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+
+}
+     
+@media screen and(max-width: 1330px) {
+    .Container{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+@media screen and (max-width: 1064px) {
+    .Container{
+        width: 90%;
+        height: auto; 
+    }
+    .row{
+        flex-direction: column;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        margin-right: 10rem;
+        padding-right: 5rem;
+
+    }
+    .input{
+        margin-top: 2rem;
+    }
+    .input{
+        flex-direction: column;
+    }
+    .input{
+        margin-top: 0.5rem;
+    }
+        
+    }
+    .container .row:nth-child(2),
+    .container .row:nth-child(2){
+        display: none;
+    }
+   
+    
+}
+
+
+
+
+
+
+
